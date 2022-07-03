@@ -1,0 +1,1436 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.section{
+    width: 100%;
+}
+.header-1{
+    background-color: rgb(236, 234, 234);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+   
+   
+}
+.header-2{
+  
+    width: 85%;
+    
+  
+    margin: auto;
+   display: flex;
+   justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.stand-blog{
+    
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+.Logo_head{
+ 
+    color:black;
+    font-size: 30px;
+}
+.bar_out{
+
+    width: 5%;
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
+    }
+.bar{
+    background-color:orange;
+    width: 90%;
+    height: 9px;
+    border-radius: 80px;
+}
+
+
+/* .stand-blog a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 23px;
+} */
+
+
+.right-header{
+    width: 80%;
+    padding: 15px 0px;
+}
+.right-header ul{
+    display: flex;
+    float: right;
+    
+}
+.right-header ul li{
+    list-style: none;
+}
+.right-header ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 18px;
+    font-weight: 700;
+   
+
+}
+
+.right-header ul li a:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+
+
+}
+.right-header ul li a.active{
+    color: orangered;
+}
+/* for respocive header */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    display: none;
+    background-color:#ffffff;
+  
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:lightgrey;
+    color: black;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      background-color: orange;
+    }
+    .topnav{
+      display: block !important;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      
+    }
+  }
+.three-images{
+    margin-top: 10px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.image-1{
+    width: 32%;
+    position: relative;
+  
+}
+.image-1 img{
+    width: 100%;
+   
+}
+.image-2{
+    width: 32%;
+    position: relative;
+  
+}
+.image-2 img{
+    width: 100%;
+   
+}
+.image-3{
+    width: 32%;
+    position: relative;
+  
+}
+.image-3 img{
+    width: 100%;
+   
+}
+.fashion{
+    position: absolute;
+    top: 46%;
+    left: 4%;
+}
+.fashion h2{
+    color: orange;
+    font-size: 18px;
+}
+.fashion h1{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.for-link{
+    margin: 0px -40px;
+    
+}
+.for-link ul li{
+    list-style: none;
+    display: inline;
+   
+
+}
+.for-link ul li a{
+    text-decoration: none;
+    color: #ffffff;
+  
+   
+}
+.for-link ul li a:hover{
+    color: orange;
+       
+}
+.creative{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(42, 41, 41);
+}
+.for-two-item{
+    width: 93%;
+    flex-wrap: wrap;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.html-heading h2{
+    color: orange;
+    margin-top: 30px;
+    font-size: 25px;
+    
+}
+.html-heading h1{
+    font-size: 30px;
+   
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.right-button{
+    margin-top: 60px;
+}
+.right-button button{
+    padding: 10px 40px;
+    background-color: orange;
+    color: #ffffff;
+    font-size: 20px;
+}
+.right-button button:hover{
+    background-color: rgb(222, 180, 101);
+}
+
+
+/* Start blog post */
+.blog-post{
+    width: 100%;
+    margin-top: 50px;
+  
+}
+.blog-main{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left{
+    width: 65%;
+  
+   
+}
+.left-2{
+    width: 100%;
+    border: 1px solid rgb(217, 215, 215);
+}
+.right{
+    width: 30%;
+}
+.left-image{
+    width: 100%;
+}
+.left-image img{
+    width: 100%;
+}
+.life-style{
+    margin-top: 50px;
+   
+}
+.life-style h2{
+    color: orange;
+    font-size: 25px;
+}
+.life-style h1{
+    color: black;
+    font-size: 25px;
+}
+.life-style ul{
+    margin: 0px -40px;
+}
+.life-style ul li{
+    display: inline;
+    list-style: none;
+}
+.life-style ul li a{
+    text-decoration: none;
+    color: rgb(113, 111, 111);
+    padding: 0px 10px;
+
+}
+.life-style ul li a:hover{
+    color: orange;
+}
+.main-div{
+    width: 90%;
+    margin: auto;
+   
+}
+.har-1{
+    margin-top: 30px;
+    background-color: 1px solid rgb(243, 238, 238);
+}
+.para{
+    margin-top: 30px;
+}
+.para p{
+    line-height: 30px;
+    font-size:14px;
+}
+.para p span{
+    color: deepskyblue;
+}
+.para p span:hover{
+    color: aqua;
+}
+.for-two-icon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon-1 ul{
+    display: flex;
+
+}
+.icon-1 ul li{
+    list-style: none;
+
+}
+.icon-1 ul li a{
+    text-decoration: none;
+    padding: 0px 5px;
+    color: rgb(113, 111, 111);
+}
+.icon-1 ul li a:hover{
+    color: orange;
+}
+.icon-2 ul{
+    display: flex;
+    
+}
+.icon-2 ul li{
+    list-style: none;
+
+}
+.icon-2 ul li a{
+    text-decoration: none;
+    padding: 0px 5px;
+    color: rgb(113, 111, 111);
+}
+.icon-2 ul li a:hover{
+    color: orange;
+}
+.btn-1{
+    margin-top: 30px;
+}
+.btn-1 button{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: orange;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+   
+}
+.btn-1 button:hover{
+  background-color: rgb(245, 195, 103);
+}
+
+
+
+/* end blog post */
+/* START RIGHT SIDE BAR */
+.right-side-bar{
+    width: 100%;   
+
+}
+#search-form input[type="search"] {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid lightgrey;
+}
+.recent{
+    padding-top: 30px;
+}
+.har-2{
+    margin-top: 20px;
+}
+.vesti h3{
+    font-size: 16px;
+}
+.vesti h3 a{
+    color: black;
+    text-decoration: none;
+}
+.vesti p{
+    color: rgb(140, 133, 133);
+}
+.vesti h3 a:hover{
+    color: orange;
+}
+.nature-life{
+    margin-top: 20px;
+}
+.nature-life ul{
+    display: inline;
+}
+.nature-life ul li{
+    list-style: none;
+    margin: 10px 0px;
+}
+.nature-life ul li a{
+    text-decoration: none;
+    color: black;
+   
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.nature-life ul li a span{
+   
+        font-size: 27px;
+        padding: 5px 6px; 
+}
+.nature-life ul li a:hover{
+    color: orange;
+}
+.creative-html{
+    margin-top: 30px;
+}
+.creative-html li{
+    display: inline;
+   
+    list-style: none;
+   
+
+}
+.creative-html li a{
+    text-decoration: none;
+    color: rgb(148, 146, 146);
+    border: 1px solid rgb(226, 220, 220);
+    padding: 10px 10px;
+}
+.creative-html li a:hover{
+    background-color: orange;
+    color: #ffffff;
+}
+.inspir{
+    margin-top: 30px;
+}
+.inspir li{
+    display: inline;
+   
+    list-style: none;
+   
+
+}
+.inspir li a{
+    text-decoration: none;
+    color: rgb(148, 146, 146);
+    border: 1px solid rgb(226, 220, 220);
+    padding: 10px 10px;
+}
+.inspir li a:hover{
+    background-color: orange;
+    color: #ffffff;
+}
+.respon{
+    margin-top: 30px;
+}
+.respon li{
+    display: inline;
+   
+    list-style: none;
+   
+
+}
+.respon li a{
+    text-decoration: none;
+    color: rgb(148, 146, 146);
+    border: 1px solid rgb(226, 220, 220);
+    padding: 10px 10px;
+}
+.respon li a:hover{
+    background-color: orange;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+/* END RIGHT SIDE BAR */
+
+
+/* SART FOOTER */
+.foot-1{
+    margin-top: 60px;
+    width: 100%;
+   
+    background-color: black;
+}
+
+.foot-3{
+    padding-top: 50px;
+   
+  
+  
+}
+.foot-3 ul{
+   
+    text-align: center;
+   
+   
+  
+}
+.foot-3 ul li{
+    display: inline;
+    
+    list-style: none;
+  
+    
+}
+.foot-3 ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.foot-3 ul span{
+    padding: 0px 10px;
+    color: #ffffff;
+}
+.foot-3 ul li a:hover{
+    color: orange;
+}
+.line-1{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+}
+.last-footer{
+    margin-top: 50px;
+   
+}
+.last-footer p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 50px;
+  
+}
+.last-footer p span{
+    color: orange;
+}
+
+
+
+/* START ABOUT PAGE */
+.section-1{
+    width: 100%;
+}
+.back-image{
+    background-image: url(../images/heading-bg.jpg);
+    width: 100%;
+   height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.about-us {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.about-us h2{
+    color: orangered;
+    font-size: 22px;
+}
+.about-us h1{
+    color: #ffffff;
+    font-size: 30px;
+}
+.about-image{
+    width: 85%;
+    margin: auto;
+    margin-top: 60px;
+}
+.about-image img{
+    width: 100%;
+}
+.about-image p{
+    line-height: 35px;
+    padding: 20px 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.donec{
+    padding-top: 50px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.donec-one{
+    width: 48%;
+}
+.donec-one h3{
+    text-align: center;
+}
+.donec-one p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+.donec-two{
+    width: 48%;
+}
+.donec-two h3{
+    text-align: center;
+}
+.donec-two p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+.three-donec{
+    padding-top: 50px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.donec-1{
+    width: 30%;
+}
+.donec-1 h3{
+    text-align: center;
+}
+.donec-1 p{
+    padding-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+.donec-2{
+    width: 30%;
+}
+.donec-2 h3{
+    text-align: center;
+}
+.donec-2 p{
+    padding-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+.donec-3{
+    width: 30%;
+}
+.donec-3 h3{
+    text-align: center;
+}
+.donec-3 p{
+    padding-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+.four-donec{
+    padding-top: 50px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.donec-one-div{
+    width: 23%;
+}
+.donec-one-div h3{
+    text-align: center;
+}
+.donec-one-div p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+.donec-two-div{
+    width: 23%;
+}
+.donec-two-div h3{
+    text-align: center;
+}
+.donec-two-div p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+.donec-three-div{
+    width: 23%;
+}
+.donec-three-div h3{
+    text-align: center;
+}
+.donec-three-div p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+.donec-four-div{
+    width: 23%;
+}
+.donec-four-div h3{
+    text-align: center;
+}
+.donec-four-div p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+.tagging-icon{
+   width: 50%;
+   margin: auto;
+}
+.tagging-icon ul{
+    text-align: center;
+   
+}
+.tagging-icon ul li{
+    list-style-type: none;
+    display: inline;
+}
+.tagging-icon ul li i {
+    font-size: 50px;
+}
+.tagging-icon ul li a {
+    background-color: green;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 90%;
+}
+.tagging-icon ul li a:hover{
+    /* background-color: orangered;
+    border-radius: 50px; */
+}
+
+
+
+
+
+/* END ABOUT PAGE */
+
+
+/* START BLOG_ENTRIES <<<<<<<<<<<<--------------------->>>>>>>>>>>>>>>>>>>>>>>>>>--------------------<<<<<<<<<<<<<<*/
+.section-3{
+    width: 100%;
+}
+.for-three-section{
+   
+    width: 85%;
+    margin: auto;
+  
+}
+.for-all-three-section{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-one{
+    width: 65%;
+   
+  
+}
+.main-div-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-div-one{
+    width: 48%;
+   
+  
+    border: 1px solid lightgrey;
+}
+.blog-thumb-1 img{
+    width: 100%;
+}
+.main-div-two{
+    width: 48%;
+   
+   
+    border: 1px solid lightgrey;
+}
+.section-two{
+    width: 30%;
+  
+    
+}
+.life-section{
+    width: 85%;
+    margin: auto;
+}
+.life-section h4{
+    color: orangered;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.life-section h3{
+    color: black;
+    font-size: 18px;
+}
+.url-link{
+    display: flex;
+     margin: 0px -10px;
+   
+}
+.url-link a{
+     
+    text-decoration: none;
+    color: rgb(143, 137, 137);
+    list-style: none;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+.life-section p{
+    padding-top: 10px;
+    line-height: 25px;
+    color: rgb(143, 137, 137);
+    font-size: 14px;
+}
+.link-icon{
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.link-icon a i{
+    color: orangered;
+}
+.link-icon a{
+    color: rgb(143, 137, 137);
+    text-decoration: none;
+    font-size: 14px;
+   
+    
+}
+.main-div-section-2{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-div-section-3{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.three-number{
+    margin-top: 50px;
+    text-align: center;
+   
+}
+.three-number a{
+    color:black;
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 10px 15px;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 25px;
+}
+.three-number a:hover{
+    color: orangered;
+}
+
+
+/* END BLOG_ENTRIES *>>>>>>>>>>>>>>>>---------------------->>>>>>>>>>>>>>>>>>>>--------------->>>>>>>>>>>>>>>>>/
+
+
+/* START POST DETAILS <<<<<<<<<<<<<<<<------------------------>>>>>>>>>>>>>>>>>>>>>>>---------------------->>>>>>>>*/
+.comments{
+    margin-top: 40px;
+}
+.author{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 30px;
+
+
+}
+.author-1{
+    width: 15%;
+}
+
+.author-2{
+ width: 80%;
+ margin-top: -20px;
+}
+.author-2 p{
+    margin-top: -10px;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(143, 137, 137);
+}
+.author-2 h3{
+    font-size: 20px;
+}
+.author-2 h3 span{
+    font-size: 14px;
+    color: rgb(143, 137, 137);
+}
+.thirteen{
+    width: 80%;
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.thirteen-man{
+    width: 15%;
+   
+}
+.thirteen-man-two{
+    width: 75%;
+    margin-top: -20px;
+}
+.thirteen-man-two p{
+    margin-top: -10px;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(143, 137, 137);
+}
+.thirteen-man-two h3 span{
+    font-size: 14px;
+    color: rgb(143, 137, 137);
+}
+.thirteen-man-two h3{
+    font-size: 20px;
+}
+.your-comment{
+    margin-top: 40px;
+}
+/* END POST DETAILS <<<<<<<<<<<<<<<<------------------------>>>>>>>>>>>>>>>>>>>>>>>---------------------->>>>>>>>*/
+
+/* START CONTACT FORM <<<<<<------------->>>>>>>>>>>-----------<<<<<<<<<<<<<<<<<<<<*/
+
+.for-main-form{
+    width: 85%;
+  
+  
+    margin: auto;
+    margin-top:60px;
+    justify-content: space-between;
+    display: flex;
+}
+.send{
+    border-bottom: 1px solid rgb(238, 232, 232);
+}
+.left-form{
+    width: 65%;
+  
+}
+.right-contact{
+    width: 30%;
+   
+}
+.form-3{
+    margin-top: 20px;
+    width: 100%;
+    
+}
+.form-3 form input{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border: 1px solid rgb(238, 232, 232);
+}
+.for-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.input-1{
+    width: 48%;
+}
+.input-2{
+    width: 48%;
+}
+
+.form-3 form textarea{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid rgb(238, 232, 232);
+     padding: 10px 20px;
+}
+.btn-send{
+    margin-top: 20px;
+}
+.btn-send button{
+    background-color: orange;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+   
+}
+.btn-send button:hover{
+    background-color: orangered;
+    color: #ffffff;
+}
+.hr-1 hr{
+    background-color: rgb(238, 232, 232);
+}
+.contact-information ul{
+    display: inline;
+}
+.contact-information ul li{
+    list-style: none;
+    text-decoration: none;
+    border-top: 1px solid  rgb(238, 232, 232);
+}
+
+.contact-information ul li span{
+    color: rgb(167, 162, 162);
+
+}
+
+/* END CONTACT FORM <<<<<<<<<<<<<<---------------<<<<<<<<<<<<<<<<<<<<<<<<<------------------>>>>>>>>>>>>>>> */
+
+/* HEADER RESPONSIVE SECTION */
+
+@media screen and (max-width:991px) {
+    .header-2{
+        display: none;
+    }
+    .header-1 {
+      
+      
+        height: 48px;
+       
+    }
+    .Logo_head {
+            font-size: 20px !important;
+    }
+
+   
+    .three-images{
+        width:90%;
+        margin: auto;
+        display: block;
+    }
+    .image-1{
+        width: 100%;
+    }
+    .image-2{
+        width: 100%;
+    }
+    .image-3{
+        width: 100%;
+    }
+    .fashion {
+        position: absolute;
+        top: 40%;
+        left: 31%;
+    }
+   
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .html-5 {
+        display: flex;
+    }
+    .for-two-item{
+        display: flex;
+    }
+    .html-heading {
+        /* text-align: center; */
+        margin: auto;
+    }
+    .html-heading h2 {
+       
+        font-size: 20px;
+        text-align: center;
+    }
+    .right-button {
+        margin-top: 30px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .html-heading h1 {
+        font-size: 23px;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+    .stand-blog {
+        width: 84%;
+        /* padding: 0px 0px; */
+    }
+    /* ----------------------------------CONTACT */
+    /* .for-main-form{
+        display: block;
+    }
+    .left-form {
+        width: 100%;
+    }
+    .btn-send {
+        margin-top: 40px;
+    }
+    .right-contact {
+        width: 100%;
+        margin-top: 50px;
+    } */
+    /* RESPONSIVE ABOUT PAGE ------------>>>>>>>>>>>>>>>>>>------------------->>>>>>>>>>>>>>*/
+    .donec{
+        display: block;
+    }
+    .donec-1{
+        width: 50%;
+    }
+    .donec-2{
+        width: 50%;
+    }
+    .donec-one{
+        width: 100%;
+    }
+    .donec-two{
+        width: 100%;
+    }
+    .three-donec {
+       
+        flex-wrap: wrap;
+    }
+    .donec-3{
+        width: 100%;
+    }
+    .four-donec{
+        flex-wrap: wrap;
+    }
+    .donec-one-div{
+        width: 50%;
+    }
+    .donec-two-div{
+        width: 50%;
+    }
+    .donec-three-div{
+        width: 50%;
+    }
+    .donec-four-div{
+        width: 50%;
+    }
+    .about-us h1 {
+        color: #ffffff;
+        font-size: 21px;
+    }
+    .html-heading h2 {
+        font-size: 17px;
+        text-align: center;
+    }
+    .html-heading h1 {
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .life-style h1 {
+        color: black;
+        font-size: 20px;
+    }
+    .life-style h2 {
+       
+        font-size: 20px;
+    }
+    .life-style ul li a {
+       
+        font-size: 13px;
+    }
+    .for-main-form {
+        width: 85%;
+      
+        display: block;
+    }
+    /* FOR BLOG ENTRIES */
+    .for-all-three-section{
+        display: block;
+    }
+    .main-div-section{
+        display: block;
+    }
+    .main-div-one {
+        width: 100%;
+       
+    }
+    .blog-thumb-1 {
+        width: 100%;
+        
+    }
+    .section-one {
+        width: 100%;
+    }
+    .main-div-two {
+        width: 100%;
+        margin-top: 30px;
+       
+    }
+    .main-div-section-2{
+        display: block;
+        margin-top: 30px;
+    }
+    .main-div-section-3{
+        display: block;
+        margin-top: 30px;
+    }
+    .section-two {
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .life-style h1 {
+       
+        font-size: 20px;
+    }
+    .life-style h2 {
+        color: orange;
+        font-size: 18px;
+    }
+    
+    .about-us {
+        position: absolute;
+        top: 39%;
+        left: 10%;
+    }
+    
+    
+}
+@media screen and (max-width:600px) {
+    .fashion {
+        position: absolute;
+        top: 39%;
+        left: 21%;
+    }
+    .fashion h1 {
+        font-size: 16px;
+        
+    }
+    .for-link ul li a{
+        font-size: 12px;
+    }
+    .html-heading h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .html-heading h1 {
+        font-size: 14px;
+        color: #ffffff;
+        margin-bottom: 28px;
+    }
+    .right-button button {
+        padding: 10px 36px;
+         
+        font-size: 15px;
+    }
+    .life-style h1 {
+        font-size: 16px;
+    }
+    .life-style ul li a {
+       
+        font-size: 10px;
+    }
+    .btn-1 button{
+        font-size: 13px;
+        padding: 10px 0px;
+    }
+    .vesti h3 a {
+       
+        font-size: 13px;
+    }
+    .vesti p {
+        
+        font-size: 13px;
+    }
+    .nature-life ul li a {
+       
+        font-size: 14px;
+      
+    }
+    .foot-3 ul li a {
+       
+        font-size: 13px;
+     
+        padding-left: 10px;
+    }
+    .donec-1{
+        width: 100%;
+    }
+    .donec-2{
+        width: 100%;
+    }
+    .donec-3{
+        width: 100%;
+    }
+    .donec-one-div{
+        width: 100%;
+    }
+    .donec-two-div{
+        width: 100%;
+    }
+    .donec-three-div{
+        width: 100%;
+    }
+    .donec-four-div{
+        width: 100%;
+    }
+    .tagging-icon ul li a {
+        padding: 0px 10px;
+        color: black;
+        font-size: 18px;
+    }
+    .about-us {
+        position: absolute;
+        top: 37%;
+        left: 10%;
+    }
+    .about-us h2 {
+        color: orangered;
+        font-size: 20px;
+    }
+    .about-us h1 {
+        color: #ffffff;
+        font-size: 22px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .author-2 {
+        width: 57%;
+        margin-top: -20px;
+    }
+    .thirteen-man-two {
+        width: 47%;
+     
+    }
+    .foot-3 {
+        padding-top: 50px;
+        
+        margin-left: -25px;
+    }
+    .three-number a{
+        font-size: 14px;
+    }
+    .url-link a{
+        font-size: 12px;
+    }
+    .about-us {
+        position: absolute;
+        top: 42%;
+        left: 10%;
+    }
+    .about-us h2 {
+        color: orangered;
+        font-size: 16px;
+    }
+    .about-us h1 {
+        
+        font-size: 18px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

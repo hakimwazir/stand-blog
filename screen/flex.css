@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.main-section{
+    width: 80%;  
+    margin: auto;  
+    margin-top: 60px;
+    border: 2px solid green;
+}
+.header-sec{
+    padding: 5px 0px;
+    width: 100%;
+    background-color: lightblue; 
+    text-align: center;
+}
+.header-div{ 
+    padding: 5px 0px;
+    width: 100%;
+    text-align: center;  
+    background-color: yellow;
+}
+.main-2{
+    width: 100%;
+    display: flex;
+}
+.main-left{
+    width: 70%;
+   
+    background-color: tomato;
+}
+.main-right{
+    width: 30%;
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left-1{
+    padding: 5px 0px;
+    width: 100%;
+    text-align: center;  
+    background-color: green;
+}
+.left-2{
+    padding: 5px 0px;
+    width: 100%;
+    text-align: center;  
+    background-color: lightgrey;
+}
+.foot{
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+}
+@media screen and (max-width:991px){
+    .main-2 {
+        display: block;
+    }
+    .main-left {
+        width: 100%;     
+    }
+    .main-right {
+        width: 100%;
+    }   
+}
+@media screen and (max-width:768px) {
+    .main-2 {
+        display: flex;
+        flex-direction: row-reverse;
+    } 
+   
+}
+.three-box{
+    background-color: aquamarine;
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+   align-content: center;
+    
+  
+
+    
+  
+   
+}
+.box-1{
+    color: lime;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100px;
+    height:100px;
+    background-color: blueviolet;
+}
+
+.box-2{
+    color: orchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height:100px;
+    background-color: rgb(226, 186, 43);
+    margin:5px;
+   
+}
+.box-3{
+    display: flex;
+    align-items: center;
+    color: rgb(127, 57, 127);
+    justify-content: center;
+    width: 100px;
+    height:100px;
+    background-color: rgb(226, 119, 43);
+    margin: 5px;
+}
